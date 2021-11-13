@@ -1,0 +1,25 @@
+{
+    "name": "siganushka/api-problem",
+    "description": "Problem Details for HTTP APIs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "siganushka",
+            "email": "siganushka@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Siganushka\\ApiProblem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Siganushka\\ApiProblem\\Tests\\": "tests/"
+        }
+    }
+}
