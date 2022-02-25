@@ -6,25 +6,10 @@ namespace Siganushka\ApiProblem;
 
 class ApiProblem implements ApiProblemInterface
 {
-    /**
-     * @var string
-     */
-    private $type;
-
-    /**
-     * @var string
-     */
-    private $title;
-
-    /**
-     * @var int
-     */
-    private $status;
-
-    /**
-     * @var string
-     */
-    private $detail;
+    private string $type;
+    private string $title;
+    private int $status;
+    private string $detail;
 
     public function __construct(string $type, string $title, int $status, string $detail)
     {
